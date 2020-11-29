@@ -1,0 +1,83 @@
+.card-main{
+    width: max-content;
+    border:1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+}
+.card-image{
+    background-size: cover;
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.insidehighered.com%2Fsites%2Fdefault%2Fserver_files%2Fmedia%2FiStock-859884294.jpg&imgrefurl=https%3A%2F%2Fwww.insidehighered.com%2Fnews%2F2020%2F03%2F12%2Fwhy-are-some-colleges-closing-over-virus-concerns-while-others-stay-open&tbnid=U-IZ-AJKXbMU4M&vet=12ahUKEwi04aaI0KftAhXQCCsKHR35APsQMygCegUIARDCAQ..i&docid=YBXTt4QgiKS-JM&w=1200&h=800&q=images%20of%20college&ved=2ahUKEwi04aaI0KftAhXQCCsKHR35APsQMygCegUIARDCAQ');
+    width: 700px;
+    height:200px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.rating{
+   background-color: rgb(255, 177, 32);
+   text-align: center;
+   padding-top: 5px;
+   float: right;
+   margin-right: 100px;
+   
+}
+.rating div{
+    color: white;
+    margin: 2px;
+}
+.badges{
+    position: relative;
+    top:150px
+}
+
+.badges label{
+    padding: 10px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 3rem;
+    margin-left: 10px;
+    background-color: white;
+}
+
+#right-badge{
+   position: relative;
+   float: right;
+   margin-top: -10px;
+   margin-left: 0;
+   margin-right: 100px;
+   top:102px;
+   padding: 10px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 3rem;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.Left-side div{
+  margin:10px
+}
+
+#discount{
+    border: none;
+    padding: 7px 7px;
+    border-radius: 0 2rem 2rem  0rem;
+    background-color: rgb(64, 255, 191);
+    margin-left: 0;
+    width: max-content;
+}
+.Right-side{
+    float:right;
+}
+.Right-side div{
+   
+   margin: 10px;
+}
+#price{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: rgb(207, 60, 60);
+}
