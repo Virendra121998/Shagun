@@ -1,18 +1,19 @@
 import React from 'react';
 import './Card.css';
-const Card=()=>{
+const Card=(props)=>{
+    console.log(props.rating)
     return(
         <div className="card-main">
            <div className="card-image">
                <div className="badges">
-                  <label>badge1</label>
-                  <label>Badge2</label>
-                 
+                 {
+                    
+                 }
                </div>
                <div >
                   <div className="rating"> 
-                   <div>3.2</div>
-                   <div>Very Good</div>
+                  <div>{props.rating}</div>
+                  <div>{props.rating_remarks}</div>
                   </div> 
                   <label id="right-badge" >tag 3</label>
                </div>

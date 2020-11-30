@@ -5,7 +5,6 @@ import List from './Components/list';
 function App() {
   return (
    <> 
-    <Card/>
     <List/>
    </> 
   );
